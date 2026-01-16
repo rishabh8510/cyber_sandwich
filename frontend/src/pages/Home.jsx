@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Home | Software Setu"
+        title="Home | Cyber Sandwich"
         description="Welcome to MyCompany — we build amazing products."
         keywords="company, business, services"
       />
