@@ -89,9 +89,9 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-3">Contact Info</h3>
 
           <ul className="space-y-2 text-gray-300 text-sm">
-            <li className="flex items-center gap-2"><FaPhoneAlt /> +91 9770435842</li>
-            <li className="flex items-center gap-2"><MdEmail /> info.softwaresetu@gmail.com</li>
-            <li className="flex items-center gap-2"><FaLocationDot /> Bengaluru, Karnataka</li>
+            <li className="flex items-center gap-2"><FaPhoneAlt /> 123456789</li>
+            <li className="flex items-center gap-2"><MdEmail /> info.cybersandwich@gmail.com</li>
+            <li className="flex items-center gap-2"><FaLocationDot /> Calefornia, USA</li>
           </ul>
 
           {/* ===== IMAGE ADDED BELOW CONTACT INFO ===== */}

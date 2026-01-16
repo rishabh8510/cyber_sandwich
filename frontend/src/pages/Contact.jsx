@@ -31,7 +31,7 @@ export default function Contact() {
                 <img src={general} className="w-6 h-6" alt="" />
                 <h3 className="color font-semibold text-lg">General Inquiries:</h3>
               </div>
-              <p className="text-gray-700 mt-2 text-left">Address: Sona Towers, 71, Millers Rd, Vasanth Nagar, Bengaluru, Karnataka 560001</p>
+              <p className="text-gray-700 mt-2 text-left">Address: Calefornia, USA</p>
               <p className="text-gray-700 mt-5 text-left">Website: www.cybersandwich.com</p>
             </div>
 
@@ -40,7 +40,7 @@ export default function Contact() {
                 <img src={customer} className="w-6 h-6" alt="" />
                 <h3 className="color font-semibold text-lg">Customer Service:</h3>
               </div>
-              <p className="text-gray-700 mt-2 text-left">24/7 Contact number: 07456-987456</p>
+              <p className="text-gray-700 mt-2 text-left">24/7 Contact number: 123456789</p>
               <p className="text-gray-700 mt-1 text-left">Email: info@cybersandwich.com</p>
               <p className="text-gray-700 mt-5 text-left">Website: www.cybersandwich.com</p>
             </div>
