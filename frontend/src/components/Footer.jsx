@@ -91,7 +91,7 @@ const Footer = () => {
           <ul className="space-y-2 text-gray-300 text-sm">
             <li className="flex items-center gap-2"><FaPhoneAlt /> 123456789</li>
             <li className="flex items-center gap-2"><MdEmail /> info.cybersandwich@gmail.com</li>
-            <li className="flex items-center gap-2"><FaLocationDot /> Calefornia, USA</li>
+            <li className="flex items-center gap-2"><FaLocationDot /> 30C Mill St, Healdsburg, CA 95448, United States</li>
           </ul>
 
           {/* ===== IMAGE ADDED BELOW CONTACT INFO ===== */}

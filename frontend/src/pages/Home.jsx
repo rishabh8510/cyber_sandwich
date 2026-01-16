@@ -3,7 +3,8 @@ import HeroSection from "./home/HeroSection";
 import AboutSection from "./home/AboutSection";
 import UnlockingSolutions from "./home/UnlockingSolutions";
 import ServicesSection from "./home/ServicesSection";
-import VideoSlider from "../components/VideoSlider";
+// import VideoSlider from "../components/VideoSlider";
+import BoldText from "../components/BoldText";
 
 export default function Home() {
   return (
@@ -14,9 +15,11 @@ export default function Home() {
         keywords="company, business, services"
       />
       <HeroSection />
+      <BoldText />
       <AboutSection />
       <UnlockingSolutions />
       <ServicesSection />
+      
       {/* <VideoSlider /> */}
     </>
   );
