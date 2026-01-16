@@ -1,0 +1,241 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Syne';
+  src: url('/font/Syne-Regular.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Syne', sans-serif;
+}
+
+
+/* html,
+body {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+} */
+
+
+@layer utilities {
+  .bg-hero-gradient {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to top, #ffffff 10%, #ffffff 80%);
+  }
+
+  .bg-hero-gradient::before,
+  .bg-hero-gradient::after {
+    content: "";
+    position: absolute;
+    bottom: -10%;
+    width: 35%;
+    height: 90%;
+    background: radial-gradient(
+      circle,
+      #0072ff 10%,
+      #ffffff 90%,
+      transparent 60%
+    );
+    filter: blur(90px);
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  /* Left blur */
+  .bg-hero-gradient::before {
+    left: -10%;
+  }
+
+  /* Right blur */
+  .bg-hero-gradient::after {
+    right: -10%;
+  }
+}
+
+
+
+@layer utilities {
+  .hero-gradient {
+    position: relative;
+    overflow: hidden; /* ensures pseudo-element doesn't overflow content */
+  }
+
+  .hero-gradient::before {
+    content: "";
+    position: absolute;
+    inset: 0; /* covers entire parent */
+    background:
+      radial-gradient(circle at bottom left,
+        #0072ff 10%,
+        #ffffff 18%,
+        transparent 30%),
+      radial-gradient(circle at top right,
+        #0072ff 10%,
+        #ffffff 15%,
+        transparent 50%),
+      radial-gradient(circle at bottom right,
+        #0072ff 10%,
+        #ffffff 10%,
+        transparent 40%),
+      linear-gradient(to top,
+        #FFFFFF 10%,
+        #FFFFFF 80%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(50px);  
+    opacity: 0.9;
+    pointer-events: none;
+    z-index: -1;        
+  }
+}
+
+
+
+@layer utilities {
+  .gradient {
+    position: relative;
+    background:
+      /* Bottom Left */
+      radial-gradient(circle at bottom left,
+        #f19776 0%,
+        #ffffff 20%,
+        transparent 40%),
+
+      /* Top Right */
+      radial-gradient(circle at top right,
+        #f19776 0%,
+        #ffffff 20%,
+        transparent 50%),
+
+      /* Bottom Right */
+      radial-gradient(circle at bottom right,
+        #ff7f50 0%,
+        #ffffff 10%,
+        transparent 40%),
+
+
+
+      linear-gradient(to top,
+        #FFFFFF 10%,
+        #ccc5c5 200%);
+  }
+}
+
+
+.marquee {
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 18s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+/* Hide scrollbar but keep scroll functionality */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+
+.color {
+  background-image: linear-gradient(
+    to right,
+    #00c6ff 0%,
+    #0072ff 51%,
+    #00c6ff 100%
+  );
+
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s;
+}
+
+
+.gradient-bg {
+  background-image: linear-gradient(
+    to right,
+    #00c6ff 0%,
+    #0072ff 51%,
+    #00c6ff 100%
+  );
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.gradient-bg:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.border-start {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  background: white;   /* optional but recommended */
+}
+
+.border-start::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: inherit;
+
+  background: linear-gradient(
+    to right,
+    #00c6ff 0%,
+    #0072ff 51%,
+    #00c6ff 100%
+  );
+
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+
+  z-index: 0;
+  pointer-events: none;
+}

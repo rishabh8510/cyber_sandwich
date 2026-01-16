@@ -1,0 +1,83 @@
+[
+    {
+        "title": "E-Commerce Starter",
+        "subtitle": "For small stores launching online",
+        "price": "₹34,999",
+        "features": [
+            "Up to 100 products",
+            "Modern responsive storefront",
+            "1 payment gateway (Razorpay / Stripe)",
+            "Order & basic shipping management",
+            "Coupon & basic discount management",
+            "Basic SEO (titles, meta tags, sitemap)"
+        ],
+        "tagline": "Ideal for startups, boutique stores & local businesses going online.",
+        "button": "Get Starter Package",
+        "buttonSecond": "View Demo"
+    },
+    {
+        "title": "E-Commerce Growth",
+        "subtitle": "Scale-ready store for growing brands",
+        "price": "₹54,999",
+        "features": [
+            "Up to 500 products",
+            "Advanced product filters & categories",
+            "Multiple payment methods (UPI, cards, wallets)",
+            "Integrated shipping labels (manual / third-party)",
+            "Abandoned cart capture (basic)",
+            "Google Analytics & Facebook Pixel integration"
+        ],
+        "tagline": "Perfect for D2C brands & growing e-commerce stores.",
+        "button": "Get Growth Package",
+        "buttonSecond": "View Demo"
+    },
+    {
+        "title": "E-Commerce Business",
+        "subtitle": "For serious online businesses",
+        "price": "₹74,999",
+        "features": [
+            "Up to 1000 products",
+            "Variant support (size, color, etc.)",
+            "Integrated tax / GST calculations",
+            "Integrated shipping labels (manual / third-party)",
+            "Multi-warehouse / location-based delivery zones",
+            "Customer accounts & order history",
+            "Sales & basic analytics dashboard"
+        ],
+        "tagline": "Best for SMEs with a wide catalogue & regular online orders.",
+        "button": "Get Business Package",
+        "buttonSecond": "Talk To Sales"
+    },
+    {
+        "title": "E-Commerce Advanced",
+        "subtitle": "High-volume, feature-rich storefront",
+        "price": "₹99,999",
+        "features": [
+            "Up to 5000 products",
+            "Bulk import / export (Excel / CSV)",
+            "Advanced discount rules & combo offers",
+            "Integrated email / SMS order notifications",
+            "Advanced reporting (sales, products, customers)",
+            "Customer accounts & order history"
+        ],
+        "tagline": "Suitable for wholesalers, distributors & multi-category stores.",
+        "button": "Get Advanced Package",
+        "buttonSecond": "Schedule a Call"
+    },
+    {
+        "title": "E-Commerce Enterprise",
+        "subtitle": "Full-scale enterprise-grade solution",
+        "price": "₹1,49,999 ",
+        "features": [
+            "Unlimited products & categories",
+            "Multi-store / multi-domain support (if required)",
+            "Custom checkout flows & integrations",
+            "API integration with ERP / CRM / Inventory",
+            "Role-based admin panel & approvals",
+            "Dedicated account manager & premium support"
+        ],
+        "tagline": "Ideal for large brands, marketplaces & enterprise-level operations.",
+        "button": "Get Enterprise Package",
+        "buttonSecond": "Request Custom Quote"
+    }
+]

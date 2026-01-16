@@ -1,0 +1,44 @@
+{
+  "refundPolicy": {
+    "title": "Return & Refund Policy",
+    "mainTitle": "STANDARD REFUND TERMS",
+    "sections": [
+      {
+        "id": 1,
+        "content": "Thank you for choosing cybersandwich.com for your IT service needs. We strive to provide excellent services to our clients. In the event that you are not entirely satisfied with your purchase, we're here to help."
+      }
+    ],
+    "refundTimeframes": [
+      {
+        "service": "Website Design Plans",
+        "timeframe": "Refunds can be requested within 8 days of project confirmation payment processed.",
+        "note": "The refunded amount will have the domain and hosting costs deducted, as these are purchased from third-party providers."
+      },
+      {
+        "service": "Mobile Applications Plans",
+        "timeframe": "Refunds are applicable within 8 days of project confirmation payment processed.",
+        "note": "Please note that costs associated with app stores (Android / Apple) will not be refunded, as they are incurred at the time of project confirmation."
+      },
+      {
+        "service": "Web Hosting",
+        "timeframe": "Refunds can be requested within 2 days of the service start date."
+      }
+    ],
+    "cancellationPolicy": {
+      "title": "Cancellation Process",
+      "points": [
+        "You may cancel a service at any time, but a refund will only be issued if the cancellation is requested within the specified refund timeframe for the relevant service.",
+        "Please be aware that some services have different refund policies or requirements, and there are services that are not eligible for a refund under any circumstance."
+      ]
+    },
+    "projectCancellation": {
+      "title": "Project Cancellation",
+      "content": "If you decide to cancel a project, a 30% deduction will be applied, and the remaining amount will be refunded."
+    },
+    "contactInfo": {
+      "text": "For any questions regarding our Returns and Refunds Policy, please contact us at",
+      "email": "info.cybersandwich@gmail.com"
+    },
+    "closingNote": "Thank you for choosing info.cybersandwich@gmail.com"
+  }
+}

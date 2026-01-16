@@ -1,0 +1,77 @@
+[
+    {
+        "title": "ERP Suite",
+        "subtitle": "End-to-end business process automation",
+        "price": "₹79,999",
+        "features": [
+            "Sales & Purchase Management",
+            "Finance & Accounting Module",
+            "Multi-branch & Multi-user Access",
+            "Real-time Reports & Dashboards",
+            "Role-based Access Control"
+        ],
+        "tagline": "Ideal for growing SMEs needing a complete ERP backbone.",
+        "button": "Get ERP Package",
+        "buttonSecond": "View Details"
+    },
+    {
+        "title": "CRM Suite",
+        "subtitle": "Manage leads, customers & follow-ups",
+        "price": "₹39,999",
+        "features": [
+            "Lead & Contact Management",
+            "Follow-up & Reminder System",
+            "Sales Pipeline & Stages",
+            "Email / Call Log Tracking",
+            "Basic Analytics & Reports"
+        ],
+        "tagline": "Perfect for sales teams & service-based businesses.",
+        "button": "Get CRM Package",
+        "buttonSecond": "View Demo"
+    },
+    {
+        "title": "Inventory Suite",
+        "subtitle": "Stock, warehouse & purchase control",
+        "price": "₹49,999",
+        "features": [
+            "Real-time Stock Tracking",
+            "Multiple Warehouses Support",
+            "GRN, Purchase & Stock Transfer",
+            "Low Stock & Expiry Alerts",
+            "Barcode / QR Code Read"
+        ],
+        "tagline": "Best for retail, wholesale & warehouse operations",
+        "button": "Get Inventory Package",
+        "buttonSecond": "Download Brochure"
+    },
+    {
+        "title": "Lead Generation Suite",
+        "subtitle": "Capture, score & distribute leads smartly",
+        "price": "₹29,999",
+        "features": [
+            "Multi-channel Lead Capture",
+            "Lead Scoring & Assignment Rules",
+            "Landing Page & Form Integration",
+            "WhatsApp / Email Notifications",
+            "Basic Campaign Analytics"
+        ],
+        "tagline": "Designed for marketing agencies & sales-driven teams.",
+        "button": "Get Lead Gen Package",
+        "buttonSecond": "Talk To Sales"
+    },
+    {
+        "title": "Custom Software Development",
+        "subtitle": "Tailor-made solutions for your business",
+        "price": "₹1,00,000+",
+        "features": [
+            "Requirement Analysis & Consultation",
+            "UI/UX, Web & Mobile Development",
+            "API Integration & Automation",
+            "Scalable Cloud Architecture",
+            "Support, Maintenance & Upgrades"
+        ],
+        "tagline": "Perfect when ready-made software can’t match your process.",
+        "button": "Request Custom Quote",
+        "buttonSecond": "Schedule a Call"
+    }
+]

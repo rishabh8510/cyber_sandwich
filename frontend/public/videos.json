@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "video": "/videos/video1.mp4",
+    "name": "Person One",
+    "role": "Illustrator",
+    "text": "This course was truly amazing. Worth every penny!"
+  },
+  {
+    "id": 2,
+    "video": "/videos/video2.mp4",
+    "name": "Person Two",
+    "role": "Designer",
+    "text": "Very helpful videos and great support."
+  },
+  {
+    "id": 3,
+    "video": "/videos/video3.mp4",
+    "name": "Person Three",
+    "role": "Developer",
+    "text": "High-quality content. Loved it!"
+  }
+]

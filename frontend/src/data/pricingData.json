@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Premier Edition",
+    "price": "12,999.00/-",
+    "features": [
+      "Fully Automated Trading Software",
+      "Minimum Capital Required 30,000/-",
+      "Free Trial of 1 Days",
+      "Max 2 Script Slots",
+      "Restriction On Quantity",
+      "Restriction On Segments",
+      "Validity: 01 Month"
+    ]
+  },
+  {
+    "title": "Regal Edition",
+    "price": "29,999.00/-",
+    "features": [
+      "Fully Automated Trading Software",
+      "Minimum Capital Required 50,000/-",
+      "Free Trial of 2 Days",
+      "More 4 Script Slots",
+      "Restriction On Quantity",
+      "Restriction On Segments",
+      "Validity: 03 Months"
+    ]
+  },
+  {
+    "title": "Imperial Edition",
+    "price": "57,999.00/-",
+    "features": [
+      "Fully Automated Trading Software",
+      "Minimum Capital Required 1,00,000/-",
+      "Paid Trial Of 1 week @ just 7,999/-",
+      "Unlimited Script Slots",
+      "Unlimited Quantity",
+      "Restriction On Segments",
+      "Validity: 06 Months"
+    ]
+  },
+  {
+    "title": "Crown Edition",
+    "price": "99,999.00/-",
+    "features": [
+      "Fully Automated Trading Software",
+      "Minimum Capital Requirement 2,00,000/-",
+      "Paid Trial Of 1 Week @ Just 9,999/-",
+      "No Limitation On Script Slots",
+      "Unlimited Quantity",
+      "All Segment Unlocked",
+      "Validity: 1 Year"
+    ]
+  }
+]
