@@ -132,10 +132,6 @@ export default function HeaderLinks({ onClick }) {
       {/* <NavLink to="/payment" onClick={onClick} className={linkClass}>
         Payment
       </NavLink> */}
-
-      <NavLink to="/contact" onClick={onClick} className={linkClass}>
-        Contact Us
-      </NavLink>
     </>
   );
 }

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import HeaderLinks from "./HeaderLinks.jsx";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,47 +12,32 @@ export default function Header() {
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <header className="w-full fixed top-0 left-0 z-50 bg-white shadow-xs">
+    <header className="w-full fixed top-0 left-0 z-50 bg-white shadow-sm">
+      {/* ================= MAIN NAVBAR ================= */}
 
-      {/* ================= TOP BAR ================= */}
-      {/* <div className="hidden md:block w-full bg-[#f5f5f5] text-gray-700 text-sm">
-        <div className="max-w-full mx-auto px-30 py-2 flex items-center justify-between flex-wrap gap-3">
+      <div className="hidden md:block w-full bg-[#f5f5f5] text-gray-700 text-sm">
+        <div className="max-w-full mx-auto px-30 py-2 flex items-center justify-end flex-wrap gap-6">
 
+          {/* Phone */}
           <div className="flex items-center gap-2 text-[14px]">
-            <span className="font-semibold flex text-center justify-center gap-2">
-              <FaPhoneAlt className="mt-1" /> +91 9770435842
+            <span className="font-semibold flex items-center gap-2">
+              <FaPhoneAlt className="mt-[1px]" /> +91 9770435842
             </span>
-            <p>24×7 Support</p>
           </div>
 
-          <div className="flex gap-4">
-            <button
-              onClick={() => navigate("/contact")}
-              className="bg-[#FB3800] text-white px-4 py-1.5 text-sm rounded-md hover:bg-orange-600 transition-all cursor-pointer"
-            >
-              Free trial
-            </button>
-            <button
-              onClick={() => navigate("/contact")}
-              className="bg-[#FB3800] text-white px-4 py-1.5 text-sm rounded-md hover:bg-orange-600 transition-all cursor-pointer"
-            >
-              Request demo
-            </button>
-            <button
-              onClick={() => navigate("/contact")}
-              className="bg-[#FB3800] text-white px-4 py-1.5 text-sm rounded-md hover:bg-orange-600 transition-all cursor-pointer"
-            >
-              Login
-            </button>
+          <div className="flex items-center gap-2 text-[14px]">
+            <span className="font-semibold flex items-center gap-2">
+              <FaEnvelope className="mt-[1px]" /> info.cybersandwich@gmail.com
+            </span>
           </div>
 
         </div>
-      </div> */}
+      </div>
 
-      {/* ================= MAIN NAVBAR ================= */}
-      <nav className="flex items-center justify-between py-3 px-5 sm:px-10 md:px-16 lg:px-30 bg-white">
 
-        {/* Logo */}
+      <nav className="flex items-center justify-between py-3 px-5 sm:px-10 md:px-16 lg:px-24">
+
+        {/* LEFT: Logo */}
         <div
           onClick={() => navigate("/")}
           className="flex items-center cursor-pointer"
@@ -60,17 +45,30 @@ export default function Header() {
           <img
             src="/logo.svg"
             alt="Cyber Sandwich Logo"
-            className="h-13 w-auto object-contain"
+            className="h-12 w-auto object-contain"
             draggable="false"
           />
         </div>
 
-        {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-6 text-gray-700 text-base font-medium">
-          <HeaderLinks />
+        {/* CENTER: Desktop Links */}
+        <div className="hidden md:flex flex-1 justify-center">
+          <div className="flex items-center space-x-8 text-gray-700 text-base font-medium">
+            <HeaderLinks />
+          </div>
         </div>
 
-        {/* Mobile Menu Button */}
+        {/* RIGHT: Contact Button (Desktop) */}
+        <div className="hidden md:flex">
+          <button
+            onClick={() => navigate("/contact")}
+            className="flex items-center gap-2 bg-black text-white px-5 py-2 rounded-full hover:bg-gray-900 transition"
+          >
+            <FaPhoneAlt className="text-sm" />
+            Contact Us
+          </button>
+        </div>
+
+        {/* MOBILE MENU BUTTON */}
         <div className="md:hidden flex items-center">
           <button
             onClick={toggleMenu}
@@ -84,8 +82,22 @@ export default function Header() {
       {/* ================= MOBILE DROPDOWN ================= */}
       {menuOpen && (
         <div className="md:hidden bg-white border-t border-gray-200 shadow-lg">
-          <div className="flex flex-col items-start px-6 py-4 space-y-4 text-gray-700 text-base">
+          <div className="flex flex-col items-start px-6 py-4 space-y-5 text-gray-700 text-base">
+
+            {/* Mobile Links */}
             <HeaderLinks onClick={closeMenu} />
+
+            {/* Mobile Contact Button */}
+            <button
+              onClick={() => {
+                closeMenu();
+                navigate("/contact");
+              }}
+              className="flex items-center gap-2 w-full justify-center bg-black text-white px-5 py-3 rounded-full hover:bg-gray-900 transition"
+            >
+              <FaPhoneAlt className="text-sm" />
+              Contact Us
+            </button>
           </div>
         </div>
       )}
