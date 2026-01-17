@@ -21,7 +21,7 @@ export default function Header() {
           {/* Phone */}
           <div className="flex items-center gap-2 text-[14px]">
             <span className="font-semibold flex items-center gap-2">
-              <FaPhoneAlt className="mt-[1px]" /> +91 9770435842
+              <FaPhoneAlt className="mt-[1px]" /> 123456789
             </span>
           </div>
 
