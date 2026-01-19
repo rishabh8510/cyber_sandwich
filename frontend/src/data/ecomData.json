@@ -2,7 +2,7 @@
     {
         "title": "E-Commerce Starter",
         "subtitle": "For small stores launching online",
-        "price": "₹34,999",
+        "price": "$34,999",
         "features": [
             "Up to 100 products",
             "Modern responsive storefront",
@@ -18,7 +18,7 @@
     {
         "title": "E-Commerce Growth",
         "subtitle": "Scale-ready store for growing brands",
-        "price": "₹54,999",
+        "price": "$54,999",
         "features": [
             "Up to 500 products",
             "Advanced product filters & categories",
@@ -34,7 +34,7 @@
     {
         "title": "E-Commerce Business",
         "subtitle": "For serious online businesses",
-        "price": "₹74,999",
+        "price": "$74,999",
         "features": [
             "Up to 1000 products",
             "Variant support (size, color, etc.)",
@@ -51,7 +51,7 @@
     {
         "title": "E-Commerce Advanced",
         "subtitle": "High-volume, feature-rich storefront",
-        "price": "₹99,999",
+        "price": "$99,999",
         "features": [
             "Up to 5000 products",
             "Bulk import / export (Excel / CSV)",
@@ -67,7 +67,7 @@
     {
         "title": "E-Commerce Enterprise",
         "subtitle": "Full-scale enterprise-grade solution",
-        "price": "₹1,49,999 ",
+        "price": "$1,49,999 ",
         "features": [
             "Unlimited products & categories",
             "Multi-store / multi-domain support (if required)",

@@ -2,7 +2,7 @@
     {
         "title": "ERP Suite",
         "subtitle": "End-to-end business process automation",
-        "price": "₹79,999",
+        "price": "$79,999",
         "features": [
             "Sales & Purchase Management",
             "Finance & Accounting Module",
@@ -17,7 +17,7 @@
     {
         "title": "CRM Suite",
         "subtitle": "Manage leads, customers & follow-ups",
-        "price": "₹39,999",
+        "price": "$39,999",
         "features": [
             "Lead & Contact Management",
             "Follow-up & Reminder System",
@@ -32,7 +32,7 @@
     {
         "title": "Inventory Suite",
         "subtitle": "Stock, warehouse & purchase control",
-        "price": "₹49,999",
+        "price": "$49,999",
         "features": [
             "Real-time Stock Tracking",
             "Multiple Warehouses Support",
@@ -47,7 +47,7 @@
     {
         "title": "Lead Generation Suite",
         "subtitle": "Capture, score & distribute leads smartly",
-        "price": "₹29,999",
+        "price": "$29,999",
         "features": [
             "Multi-channel Lead Capture",
             "Lead Scoring & Assignment Rules",
@@ -62,7 +62,7 @@
     {
         "title": "Custom Software Development",
         "subtitle": "Tailor-made solutions for your business",
-        "price": "₹1,00,000+",
+        "price": "$1,00,000+",
         "features": [
             "Requirement Analysis & Consultation",
             "UI/UX, Web & Mobile Development",
