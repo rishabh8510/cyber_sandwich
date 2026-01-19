@@ -30,12 +30,12 @@ export default function EcommercePackage() {
               className="relative bg-white rounded-xl shadow-lg p-6 sm:p-7 md:p-8 border-t-4 border-[#00c6ff] flex flex-col justify-between"
             >
               {/* Get Quotation Button */}
-              <button
+              {/* <button
                 onClick={() => openModal(pkg)}
                 className="absolute top-4 right-4 text-xs sm:text-sm font-medium px-3 py-1 rounded-full border border-[#00c6ff] text-[#00c6ff] hover:bg-[#00c6ff] hover:text-white transition"
               >
                 Get Quote
-              </button>
+              </button> */}
 
               <div>
                 <h2 className="text-xl sm:text-2xl font-semibold mb-1">
@@ -45,13 +45,13 @@ export default function EcommercePackage() {
                   {pkg.subtitle}
                 </p>
 
-                <h3 className="text-2xl sm:text-3xl font-bold text-[#00c6ff] mb-4">
+                {/* <h3 className="text-2xl sm:text-3xl font-bold text-[#00c6ff] mb-4">
                   {pkg.price}
                   <span className="text-sm sm:text-base text-gray-600">
                     {" "}
                     / one-time setup
                   </span>
-                </h3>
+                </h3> */}
 
                 <ul className="space-y-2 mb-6">
                   {pkg.features.map((feature, i) => (
@@ -69,11 +69,13 @@ export default function EcommercePackage() {
                 </p>
               </div>
 
-              <NavLink to="/contact">
-                <button className="w-full mt-6 flex items-center justify-center gap-2 text-white font-medium py-2 rounded-lg transition-all hover:opacity-90 gradient-bg cursor-pointer">
-                  Buy Now <span className="text-lg">↗</span>
+              {/* <NavLink to="/contact"> */}
+                <button
+                onClick={() => openModal(pkg)} 
+                className="w-full mt-6 flex items-center justify-center gap-2 text-white font-medium py-2 rounded-lg transition-all hover:opacity-90 gradient-bg cursor-pointer">
+                  Get Quote<span className="text-lg ml-2">↗</span>
                 </button>
-              </NavLink>
+              {/* </NavLink> */}
             </div>
           ))}
         </div>
