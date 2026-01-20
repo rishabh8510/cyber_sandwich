@@ -74,13 +74,13 @@ const Footer = () => {
             <li><NavLink to="/about">About Us</NavLink></li>
             {/* <li><NavLink to="/service"></NavLink>Services</li> */}
             <li><NavLink to="/contact">Contact Us</NavLink></li>
-            <li>      <NavLink to="/terms">
+            {/* <li>      <NavLink to="/terms">
               Terms & Conditions
             </NavLink></li>
             <li>      <NavLink to="/refund">
               Refund Policy
             </NavLink></li>
-            <li> <NavLink to="/privacy">Privacy Policy</NavLink></li>
+            <li> <NavLink to="/privacy">Privacy Policy</NavLink></li> */}
           </ul>
         </div>
 
@@ -91,7 +91,7 @@ const Footer = () => {
           <ul className="space-y-2 text-gray-300 text-sm">
             <li className="flex items-center gap-2"><FaPhoneAlt /> 123456789</li>
             <li className="flex items-center gap-2"><MdEmail /> info.cybersandwich@gmail.com</li>
-            <li className="flex items-center gap-2"><FaLocationDot /> 30C Mill St, Healdsburg, CA 95448, United States</li>
+            <li className="flex items-center gap-2"><FaLocationDot /> Healdsburg, CA 95448, United States</li>
           </ul>
 
           {/* ===== IMAGE ADDED BELOW CONTACT INFO ===== */}

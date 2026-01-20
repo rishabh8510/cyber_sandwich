@@ -95,7 +95,7 @@ export default function AboutSection() {
 
       <div className="border-gray-200 my-10"></div>
 
-      <div className="max-w-full mx-auto px-6 md:px-30 text-center">
+      {/* <div className="max-w-full mx-auto px-6 md:px-30 text-center">
         <div className="mb-8">
           <p className="text-sm text-[#0072ff] font-semibold tracking-widest mb-6">
             <span className="border-start p-2 rounded-2xl">
@@ -125,7 +125,7 @@ export default function AboutSection() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

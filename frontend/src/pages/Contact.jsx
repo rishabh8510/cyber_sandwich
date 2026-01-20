@@ -31,7 +31,7 @@ export default function Contact() {
                 <img src={general} className="w-6 h-6" alt="" />
                 <h3 className="color font-semibold text-lg">General Inquiries:</h3>
               </div>
-              <p className="text-gray-700 mt-2 text-left">Address: 30C Mill St, Healdsburg, CA 95448, United States</p>
+              <p className="text-gray-700 mt-2 text-left">Address: Healdsburg, CA 95448, United States</p>
               <p className="text-gray-700 mt-5 text-left">Website: www.cybersandwich.com</p>
             </div>
 

@@ -45,13 +45,13 @@ export default function SoftwarePackage() {
                   {pkg.subtitle}
                 </p>
 
-                <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+                {/* <h3 className="text-2xl sm:text-3xl font-bold mb-4">
                   <span className="color">{pkg.price}</span>
                   <span className="text-sm sm:text-base text-gray-600">
                     {" "}
                     / one-time setup
                   </span>
-                </h3>
+                </h3> */}
 
                 <ul className="space-y-2 mb-6">
                   {pkg.features.map((feature, i) => (
