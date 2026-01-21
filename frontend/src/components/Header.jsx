@@ -20,14 +20,14 @@ export default function Header() {
 
           {/* Phone */}
           <div className="flex items-center gap-2 text-[14px]">
-            <span className="font-semibold flex items-center gap-2">
+            {/* <span className="font-semibold flex items-center gap-2">
               <FaPhoneAlt className="mt-[1px]" /> 123456789
-            </span>
+            </span> */}
           </div>
 
           <div className="flex items-center gap-2 text-[14px]">
             <span className="font-semibold flex items-center gap-2">
-              <FaEnvelope className="mt-[1px]" /> info.cybersandwich@gmail.com
+              <FaEnvelope className="mt-[1px]" /> support@cybersandwich.com
             </span>
           </div>
 
@@ -45,7 +45,7 @@ export default function Header() {
           <img
             src="/logo.svg"
             alt="Cyber Sandwich Logo"
-            className="h-12 w-auto object-contain"
+            className="h-15 w-auto object-contain"
             draggable="false"
           />
         </div>

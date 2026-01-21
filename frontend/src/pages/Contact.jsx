@@ -40,8 +40,8 @@ export default function Contact() {
                 <img src={customer} className="w-6 h-6" alt="" />
                 <h3 className="color font-semibold text-lg">Customer Service:</h3>
               </div>
-              <p className="text-gray-700 mt-2 text-left">24/7 Contact number: 123456789</p>
-              <p className="text-gray-700 mt-1 text-left">Email: info@cybersandwich.com</p>
+              {/* <p className="text-gray-700 mt-2 text-left">24/7 Contact number: 123456789</p> */}
+              <p className="text-gray-700 mt-1 text-left">Email: support@cybersandwich.com</p>
               <p className="text-gray-700 mt-5 text-left">Website: www.cybersandwich.com</p>
             </div>
           </div>

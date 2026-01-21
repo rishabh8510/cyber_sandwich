@@ -89,8 +89,8 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-3">Contact Info</h3>
 
           <ul className="space-y-2 text-gray-300 text-sm">
-            <li className="flex items-center gap-2"><FaPhoneAlt /> 123456789</li>
-            <li className="flex items-center gap-2"><MdEmail /> info.cybersandwich@gmail.com</li>
+            {/* <li className="flex items-center gap-2"><FaPhoneAlt /> 123456789</li> */}
+            <li className="flex items-center gap-2"><MdEmail /> support@cybersandwich.com</li>
             <li className="flex items-center gap-2"><FaLocationDot /> Healdsburg, CA 95448, United States</li>
           </ul>
 
