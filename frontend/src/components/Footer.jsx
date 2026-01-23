@@ -38,8 +38,8 @@ const Footer = () => {
                 business grow with Our Services
               </h2>
               <NavLink to="/contact">
-                <button className="gradient-bg text-white px-5 sm:px-6 py-2 rounded-xl hover:bg-orange-700 transition-all flex items-center justify-center gap-2 text-sm sm:text-base cursor-pointer">
-                  Contact Us <span className="text-lg">↗</span>
+                <button className="gradient-bg text-white px-6 py-2 rounded-xl hover:bg-orange-700 transition-all flex items-center justify-center gap-2 text-sm sm:text-base cursor-pointer">
+                  Contact Us <span className="text-lg ml-3">↗</span>
                 </button>
               </NavLink>
 

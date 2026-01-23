@@ -19,7 +19,7 @@ export default function ServicesSection() {
                     <button className="gradient-bg
         text-white px-6 py-2 rounded-xl hover:bg-orange-700 transition-all flex items-center gap-2">
                         View All Services
-                        <span className="text-lg">↗</span>
+                        <span className="text-lg ml-3">↗</span>
                     </button>
                 </Link>
             </div>

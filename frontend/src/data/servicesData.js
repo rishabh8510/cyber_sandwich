@@ -1,4 +1,3 @@
-// Import icons from assets folder
 import monitorIcon from "../assets/service/img1.jpg";
 import megaphoneIcon from "../assets/service/img2.jpg";
 import paletteIcon from "../assets/service/img3.jpg";
@@ -8,63 +7,64 @@ import volumeIcon from "../assets/service/img6.jpg";
 import imageIcon from "../assets/service/img7.jpg";
 import userIcon from "../assets/service/img8.jpg";
 
+
 const servicesData = [
   {
     id: 1,
-    title: "Website Designing",
+    title: "AI Development Services",
     description:
-      "Craft visually stunning and user-friendly websites that captivate your audience and drive engagement.",
+      "We engineer bespoke AI solutions, from Large Language Models (LLMs) to Machine Learning (ML) applications, helping you explore new opportunities for automation, insights, and innovation.",
     icon: monitorIcon,
   },
   {
     id: 2,
-    title: "Digital Marketing",
+    title: "Mobile App  Development",
     description:
-      "Elevate your online presence and reach your target audience effectively through strategic digital marketing solutions.",
+      "We build intelligent mobile apps with Generative UX Design and AI-Powered Personalization to enhance user engagement.",
     icon: megaphoneIcon,
   },
   {
     id: 3,
-    title: "Graphic Designing",
+    title: "Software Development",
     description:
-      "From logos to promotional materials, our graphic design services breathe life into your brand with captivating visuals.",
+      "From custom development to system upgrades, we ensure AI-Native Development and an AI-Augmented SDLC to craft software that enhances operational efficiency and drives innovation.",
     icon: paletteIcon,
   },
-  // {
-  //   id: 4,
-  //   title: "Setu Software",
-  //   description:
-  //     "Harness the power of Seturithms to streamline processes and optimize efficiency in your operations.",
-  //   icon: cpuIcon,
-  // },
-  // {
-  //   id: 5,
-  //   title: "AI Chat Box",
-  //   description:
-  //     "Enhance customer support and engagement with intelligent chatbot solutions that provide instant assistance and personalized interactions.",
-  //   icon: messageIcon,
-  // },
-  // {
-  //   id: 6,
-  //   title: "AI Text to Voice",
-  //   description:
-  //     "Transform text into lifelike speech with our AI-powered text-to-voice technology, offering a seamless audio experience for your content.",
-  //   icon: volumeIcon,
-  // },
-  // {
-  //   id: 7,
-  //   title: "AI Image Generator",
-  //   description:
-  //     "Generate high-quality images effortlessly with AI-driven image generation tools, saving time and resources while maintaining creativity.",
-  //   icon: imageIcon,
-  // },
-  // {
-  //   id: 8,
-  //   title: "Virtual Assistant",
-  //   description:
-  //     "Access dedicated support and increase productivity with our virtual assistant services, handling tasks efficiently to help you focus on what matters most.",
-  //   icon: userIcon,
-  // },
+  {
+    id: 4,
+    title: "Digital Transformation",
+    description:
+      "We help businesses stay competitive by transforming legacy systems with AI-driven automation, modern digital-first solutions, and Intelligent Process Automation.",
+    icon: cpuIcon,
+  },
+  {
+    id: 5,
+    title: "Ideation And Design Strategy",
+    description:
+      "Our strategic ideation and design processes, powered by AI-Driven Market Analysis and Generative Design, ensure that your digital products are not only functional but also deeply resonate with users.",
+    icon: messageIcon,
+  },
+  {
+    id: 6,
+    title: "IT Consulting",
+    description:
+      "We provide expert IT consulting services supported by AI-Powered IT Strategy and Predictive Analytics to help your organization navigate complex technology decisions and align IT strategies with business objectives.",
+    icon: volumeIcon,
+  },
+  {
+    id: 7,
+    title: "DevOps",
+    description:
+      "Our DevOps services streamline development and operations to accelerate your project timelines and improve the overall product quality through intelligent automation and proactive insights.",
+    icon: imageIcon,
+  },
+  {
+    id: 8,
+    title: "Cloud Managed Services",
+    description:
+      "We manage your cloud infrastructure end-to-end, using AI-Optimized Cloud Management and AIOps to ensure it is optimized, secure, and cost-effective; allowing you to focus on strategic business activities.",
+    icon: userIcon,
+  },
 ];
 
 export default servicesData;

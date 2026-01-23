@@ -5,6 +5,8 @@ import UnlockingSolutions from "./home/UnlockingSolutions";
 import ServicesSection from "./home/ServicesSection";
 // import VideoSlider from "../components/VideoSlider";
 // import BoldText from "../components/BoldText";
+import WhyChooseUs from "./WhyChooseUs";
+import StartProject from "./StartProject";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <AboutSection />
       <UnlockingSolutions />
       <ServicesSection />
+      <WhyChooseUs />
+      <StartProject />
       
       {/* <VideoSlider /> */}
     </>

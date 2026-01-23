@@ -25,9 +25,9 @@ export default function HeroSection() {
           </p>
 
           <NavLink to="/contact">
-            <button className="inline-flex items-center gap-2 mt-4 text-white font-medium px-8 py-3 rounded-lg gradient-bg hover:opacity-90 transition-all">
+            <button className="inline-flex items-center gap-2 mt-4 text-white font-medium px-6 py-2 rounded-lg gradient-bg hover:opacity-90 transition-all">
               Contact Us
-              <span className="text-lg">↗</span>
+              <span className="text-lg ml-3">↗</span>
             </button>
           </NavLink>
         </div>
