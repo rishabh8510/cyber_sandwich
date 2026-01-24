@@ -9,7 +9,7 @@ const reasons = [
   "Over 350 Elite Talent",
   "ISO-9001 and ISO-27001 Certified Company",
   "Seamless Communication and Collaboration with Clients",
-  "Commitment to Quality & Result-Oriented Approach",
+  "Commitment to Quality & Result-oriented Approach",
   "Effective Project Management",
 ];
 
@@ -22,7 +22,7 @@ const WhyChooseUs = () => {
           <h2 className="text-4xl font-bold mb-6">Why <span className="color">Choose</span> Us</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
             As a top-tier software development outsourcing company based in
-            Vietnam, what sets Orient Software apart from other service
+            Vietnam, what sets Cyber Sandwich  apart from other service
             providers is our focus on quality, integrity, and long-term values.
             We don’t just build software; we engineer excellence and innovation.
           </p>
@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
             shared success.
           </p>
           <p className="text-gray-600 leading-relaxed mb-8">
-            At Orient Software, we value talent. Our specialist team is the
+            At Cyber Sandwich, we value talent. Our specialist team is the
             driving force behind our success. Partner with us; you will work
             with the right team, the right people, and the right expertise.
           </p>

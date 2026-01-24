@@ -31,7 +31,7 @@ export default function StartProject() {
         {/* Heading */}
         <h2 className="text-4xl font-bold">
           <span className="color">Start Your Project</span>{" "}
-          with Orient Software Today
+          with Cyber Sandwich Today
         </h2>
 
         <p className="mt-5 max-w-3xl mx-auto text-gray-600">
