@@ -22,7 +22,7 @@ const WhyChooseUs = () => {
           <h2 className="text-4xl font-bold mb-6">Why <span className="color">Choose</span> Us</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
             As a top-tier software development outsourcing company based in
-            Vietnam, what sets Cyber Sandwich  apart from other service
+            USA, what sets Cyber Sandwich  apart from other service
             providers is our focus on quality, integrity, and long-term values.
             We don’t just build software; we engineer excellence and innovation.
           </p>
