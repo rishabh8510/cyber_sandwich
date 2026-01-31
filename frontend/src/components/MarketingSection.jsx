@@ -1,6 +1,6 @@
 import aiChip from "../assets/aichip.jpg";
 import rocket from "../assets/rocket.jpg";
-import innovationIcon from "../assets/innovation.jpg";
+import innovationIcon from "../assets/icon.jpg";
 
 export default function MarketingSection() {
 
