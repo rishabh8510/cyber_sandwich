@@ -4,7 +4,7 @@ export default function ContactSection() {
   return (
     <section className="grid grid-cols-1 max-w-full mx-auto py-20 px-8 lg:px-50">
 
-      <span className="text-sm text-[#0072ff] border-start font-semibold tracking-widest rounded-2xl p-2 w-30 lg:px-4 ">
+      <span className="text-sm text-color border-start font-semibold tracking-widest rounded-2xl p-2 w-30 lg:px-4 ">
         Contact Us
       </span>
 

@@ -1,6 +1,7 @@
 import { ChevronDown } from "lucide-react";
 import React, { useState, useRef, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import HeaderIcon from "./HeaderIcon";
 
 // React icons
 import { FiMonitor, FiTrendingUp, FiImage, FiBarChart2, FiMessageSquare, FiVolume2, FiCpu } from "react-icons/fi";
@@ -15,8 +16,8 @@ export default function HeaderLinks({ onClick }) {
 
   const linkClass = ({ isActive }) =>
     isActive
-      ? "color font-medium border-b-2 border-[#0C8BEC] pb-1"
-      : "text-gray-700 hover:text-[#0C8BEC]";
+      ? "color font-medium border-b-2 border-[#85744c] pb-1"
+      : "text-gray-700 hover:text-[#85744c]";
 
 
   // ================= OUTSIDE CLICK TO CLOSE =================
@@ -68,7 +69,7 @@ export default function HeaderLinks({ onClick }) {
                 className="flex gap-3 items-center hover:bg-gray-100 p-3 rounded-xl"
               >
                 <div className="w-10 h-10 rounded-full grid place-content-center">
-                  <FaLaptopCode size={20} className="text-[#0072ff]" />
+                  <HeaderIcon type="website" className="text-[#0072ff]" />
                 </div>
                 <p className="text-gray-800 font-medium">Website Designing</p>
               </NavLink>
@@ -79,20 +80,10 @@ export default function HeaderLinks({ onClick }) {
                 className="flex gap-3 items-center hover:bg-gray-100 p-3 rounded-xl"
               >
                 <div className="w-10 h-10 rounded-full grid place-content-center">
-                  <FiTrendingUp size={20} className="text-[#0072ff]" />
+                  <HeaderIcon type="digital" className="text-[#0072ff]" />
                 </div>
                 <p className="text-gray-800 font-medium">Digital Marketing</p>
               </NavLink>
-              {/* <NavLink
-                to="/service/Setu-software"
-                onClick={() => setServicesOpen(false)}
-                className="flex gap-3 items-center hover:bg-gray-100 p-3 rounded-xl"
-              >
-                <div className="w-10 h-10 rounded-full grid place-content-center">
-                  <FiBarChart2 size={20} className="text-[#0072ff]" />
-                </div>
-                <p className="text-gray-800 font-medium">Setu Software</p>
-              </NavLink> */}
             </div>
 
             <div className="space-y-4">
@@ -102,7 +93,7 @@ export default function HeaderLinks({ onClick }) {
                 className="flex gap-3 items-center hover:bg-gray-100 p-3 rounded-xl"
               >
                 <div className="w-10 h-10 rounded-full grid place-content-center">
-                  <FiImage size={20} className="text-[#0072ff]" />
+                  <HeaderIcon type="graphic" className="text-[#0072ff]" />
                 </div>
                 <p className="text-gray-800 font-medium">Graphic Designing</p>
               </NavLink>
@@ -113,7 +104,7 @@ export default function HeaderLinks({ onClick }) {
                 className="flex gap-3 items-center hover:bg-gray-100 p-3 rounded-xl"
               >
                 <div className="w-10 h-10 rounded-full grid place-content-center">
-                  <AiOutlineRobot size={20} className="text-[#0072ff]" />
+                  <HeaderIcon type="virtual" className="text-[#0072ff]" />
                 </div>
                 <p className="text-gray-800 font-medium">Virtual Assistant</p>
               </NavLink>
@@ -128,10 +119,6 @@ export default function HeaderLinks({ onClick }) {
       <NavLink to="/software" onClick={onClick} className={linkClass}>
         Winery Website Design
       </NavLink>
-
-      {/* <NavLink to="/payment" onClick={onClick} className={linkClass}>
-        Payment
-      </NavLink> */}
     </>
   );
 }

@@ -12,10 +12,10 @@ export default function Header() {
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <header className="w-full fixed top-0 left-0 z-50 bg-white shadow-sm">
+    <header className="w-full fixed top-0 left-0 z-50 herobg">
       {/* ================= MAIN NAVBAR ================= */}
 
-      <div className="hidden md:block w-full bg-[#f5f5f5] text-gray-700 text-sm">
+      <div className="hidden md:block w-full herobg text-gray-700 text-sm">
         <div className="max-w-full mx-auto px-30 py-2 flex items-center justify-end flex-wrap gap-6">
 
           {/* Phone */}
@@ -61,7 +61,7 @@ export default function Header() {
         <div className="hidden md:flex">
           <button
             onClick={() => navigate("/contact")}
-            className="flex items-center gap-2 bg-black text-white px-5 py-2 rounded-full hover:bg-gray-900 transition"
+            className="!flex items-center gap-2 gradient-bg  px-5 py-2 rounded-full"
           >
             <FaPhoneAlt className="text-sm" />
             Contact Us

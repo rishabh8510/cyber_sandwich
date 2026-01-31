@@ -16,7 +16,7 @@ export default function QuotationModal({ open, onClose, selectedPkg }) {
           </button>
 
           <div className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-500 rounded-full mb-4">
+            <div className="!inline-flex !items-center !justify-center w-16 h-16 gradient-bg rounded-full mb-4">
               <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
@@ -32,8 +32,8 @@ export default function QuotationModal({ open, onClose, selectedPkg }) {
         <div className="flex-1 overflow-y-auto px-8 pb-8">
           <form className="space-y-6">
             {/* Package */}
-            <div className="bg-gradient-to-r from-blue-50 to-blue-50 rounded-xl p-4 border border-blue-100">
-              <label className="text-sm font-semibold text-blue-800 mb-2 flex items-center gap-2">
+            <div className="gradient-bg rounded-xl p-4 border border-blue-100">
+              <label className="text-sm font-semibold mb-2 flex items-center gap-2">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clipRule="evenodd" />
                 </svg>
@@ -262,7 +262,7 @@ export default function QuotationModal({ open, onClose, selectedPkg }) {
             <div className="pt-4">
               <button
                 type="submit"
-                className="w-full py-4 rounded-xl text-white font-semibold bg-gradient-to-r from-blue-500 to-blue-500 hover:from-blue-600 hover:to-blue-600 transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg hover:shadow-xl active:scale-[0.98]"
+                className="w-full py-4 rounded-xl text-white font-semibold gradient-bg transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg hover:shadow-xl active:scale-[0.98]"
               >
                 Submit Quotation Request
                 <svg className="inline-block w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

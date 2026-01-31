@@ -1,11 +1,11 @@
-import monitorIcon from "../assets/service/img1.jpg";
-import megaphoneIcon from "../assets/service/img2.jpg";
-import paletteIcon from "../assets/service/img3.jpg";
-import cpuIcon from "../assets/service/img4.jpg";
-import messageIcon from "../assets/service/img5.jpg";
-import volumeIcon from "../assets/service/img6.jpg";
-import imageIcon from "../assets/service/img7.jpg";
-import userIcon from "../assets/service/img8.jpg";
+import monitorIcon from "../assets/service/ai.svg";
+import megaphoneIcon from "../assets/service/mobile.svg";
+import paletteIcon from "../assets/service/software.svg";
+import cpuIcon from "../assets/service/digital.svg";
+import messageIcon from "../assets/service/idea.svg";
+import volumeIcon from "../assets/service/support.svg";
+import imageIcon from "../assets/service/devops.svg";
+import userIcon from "../assets/service/cloud.svg";
 
 
 const servicesData = [

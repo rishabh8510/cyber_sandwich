@@ -8,7 +8,7 @@ export default function ServicesSection() {
         <section className="bg-white py-16 px-6 md:px-12 lg:px-30">
             <div className="flex items-center justify-between mb-10">
                 <div>
-                    <p className="text-md text-[#0072ff] font-semibold border-start rounded-full px-3 py-1 inline-block mb-3">
+                    <p className="text-md text-color font-semibold border-start rounded-full px-3 py-1 inline-block mb-3">
                         Our Services
                     </p>
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900">

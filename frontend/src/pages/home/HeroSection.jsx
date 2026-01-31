@@ -3,9 +3,8 @@ import { NavLink } from "react-router-dom";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full bg-white overflow-hidden">
-      
-      {/* Main Container */}
+    <section className="relative w-full h-screen herobg overflow-hidden">
+    
       <div className="max-w-[1600px] mx-auto flex flex-col-reverse lg:flex-row items-center justify-between px-5 sm:px-8 md:px-12 lg:px-20 py-14 lg:py-24 gap-14">
         
         {/* Left Content */}

@@ -27,7 +27,7 @@ export default function EcommercePackage() {
           {data.map((pkg, index) => (
             <div
               key={index}
-              className="relative bg-white rounded-xl shadow-lg p-6 sm:p-7 md:p-8 border-t-4 border-[#00c6ff] flex flex-col justify-between"
+              className="relative bg-white rounded-xl shadow-lg p-6 sm:p-7 md:p-8 border-top flex flex-col justify-between"
             >
               {/* Get Quotation Button */}
               {/* <button

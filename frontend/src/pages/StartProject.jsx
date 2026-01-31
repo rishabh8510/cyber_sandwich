@@ -6,21 +6,21 @@ const steps = [
     title: "Schedule a Consultation Call",
     desc: "Discuss your needs and goals, and learn how we can realize your ideas.",
     icon: Phone,
-    color: "bg-blue-500",
+    color: "bg-[#85744c]",
   },
   {
     id: "02",
     title: "Explore Solutions and Team Setup",
     desc: "Examine solutions, clarify requirements, and onboard the ideal team for your needs.",
     icon: Lightbulb,
-    color: "bg-blue-500",
+    color: "bg-[#85744c]",
   },
   {
     id: "03",
     title: "Kick Off and Monitor the Project",
     desc: "Our team springs into action, keeping you informed and adjusting when necessary.",
     icon: Rocket,
-    color: "bg-blue-500",
+    color: "bg-[#85744c]",
   },
 ];
 
@@ -41,7 +41,7 @@ export default function StartProject() {
 
         {/* Button */}
         <div className="mt-8">
-          <button className="flex items-center gap-3 mx-auto !rounded-full gradient-bg px-7 py-3 text-white font-medium hover:bg-red-600 transition">
+          <button className="flex items-center gap-3 mx-auto !rounded-full gradient-bg px-7 py-2 text-white font-medium hover:bg-red-600 transition">
             Schedule a Meeting
             <span className="text-xl ml-3">→</span>
           </button>

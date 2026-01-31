@@ -7,7 +7,7 @@ export default function ServicesSection() {
     return (
         <section className="bg-white py-16 px-6 md:px-12 lg:px-40">
             <div className="mb-10 text-center">
-                <p className="text-sm text-[#0072ff] font-semibold border-start rounded-full px-4 py-1.5 inline-block mb-3">
+                <p className="text-sm text-color font-semibold border-start rounded-full px-4 py-1.5 inline-block mb-3">
                     Our Services
                 </p>
 

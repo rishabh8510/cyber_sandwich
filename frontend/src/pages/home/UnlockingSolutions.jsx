@@ -11,7 +11,7 @@ export default function UnlockingSolutions() {
         >
             <div className="relative max-w-full mx-auto w-full px-4 sm:px-6 md:px-10">
                 <div className="text-center mb-3">
-                    <span className="text-sm font-semibold uppercase text-[#0072ff] tracking-wide border-start rounded-full px-4 py-1 inline-block">
+                    <span className="text-sm font-semibold uppercase text-color tracking-wide border-start rounded-full px-4 py-1 inline-block">
                         What we do
                     </span>
                 </div>

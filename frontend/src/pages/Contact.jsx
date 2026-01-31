@@ -1,6 +1,7 @@
 import img from "../assets/contact.jpg";
 import general from "../assets/general.svg";
 import customer from "../assets/customer.svg";
+import HeaderIcon from "../components/HeaderIcon";
 
 import ContactSection from "../components/ContactSection";
 
@@ -28,7 +29,7 @@ export default function Contact() {
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border-start bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-sm">
               <div className="flex items-center gap-3">
-                <img src={general} className="w-6 h-6" alt="" />
+                <HeaderIcon type="inquiry"/>
                 <h3 className="color font-semibold text-lg">General Inquiries:</h3>
               </div>
               <p className="text-gray-700 mt-2 text-left">Address: Healdsburg, CA 95448, United States</p>
@@ -37,7 +38,7 @@ export default function Contact() {
 
             <div className="border-start bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-sm">
               <div className="flex items-center gap-3">
-                <img src={customer} className="w-6 h-6" alt="" />
+                <HeaderIcon type="service" />
                 <h3 className="color font-semibold text-lg">Customer Service:</h3>
               </div>
               {/* <p className="text-gray-700 mt-2 text-left">24/7 Contact number: 123456789</p> */}

@@ -1,3 +1,29 @@
+/* 
+html, body {
+    overflow-x: clip;
+    scroll-behavior: smooth;
+    overscroll-behavior-y: none;
+
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    max-height: fit-content;
+
+  } */
+
+/* .no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+} */
+
+
+
 @import "tailwindcss";
 
 
@@ -44,7 +70,7 @@ body::-webkit-scrollbar {
     height: 90%;
     background: radial-gradient(
       circle,
-      #85744c 10%,
+      #0072ff 10%,
       #ffffff 90%,
       transparent 60%
     );
@@ -78,15 +104,15 @@ body::-webkit-scrollbar {
     inset: 0; /* covers entire parent */
     background:
       radial-gradient(circle at bottom left,
-        #85744c 4%,
-        #ffffff 20%,
+        #0072ff 10%,
+        #ffffff 18%,
         transparent 30%),
       radial-gradient(circle at top right,
-        #85744c 4%,
+        #0072ff 10%,
         #ffffff 15%,
         transparent 50%),
       radial-gradient(circle at bottom right,
-        #85744c 4%,
+        #0072ff 10%,
         #ffffff 10%,
         transparent 40%),
       linear-gradient(to top,
@@ -150,30 +176,30 @@ body::-webkit-scrollbar {
 
 .gradient-bg {
   background-image: linear-gradient(
-    to left,
-    #000000 0%, 
-    #85744c 100% 
+    to right,
+    #00c6ff 0%,
+    #0072ff 51%,
+    #00c6ff 100%
   );
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-
+  box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;
 }
 
 .gradient-bg:hover {
-  background-position: right center;
+  background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
-
 
 .border-start {
   position: relative;
   display: inline-block;
   z-index: 1;
-  background: #ffffff;
+  background: white;   /* optional but recommended */
 }
 
 .border-start::before {
@@ -185,9 +211,9 @@ body::-webkit-scrollbar {
 
   background: linear-gradient(
     to right,
-    #85744C 0%,
-    #000000 30%,
-    #ffffff 200%
+    #00c6ff 0%,
+    #0072ff 51%,
+    #00c6ff 100%
   );
 
   mask:
@@ -204,17 +230,6 @@ body::-webkit-scrollbar {
 }
 
 
-
 .herobg{
   background-color: #ececec;
-}
-
-
-.border-top {
-  border-top: #85744c 4px solid;
- 
-}
-
-.text-color{
-  color: #85744C
 }
