@@ -1,14 +1,14 @@
-import heroGraphic from "../../assets/bg-hero.webp";
+import heroGraphic from "../../assets/bg.png";
 import { NavLink } from "react-router-dom";
 
 export default function HeroSection() {
   return (
     <section className="relative w-full h-screen herobg overflow-hidden">
-    
-      <div className="max-w-[1600px] mx-auto flex flex-col-reverse lg:flex-row items-center justify-between px-5 sm:px-8 md:px-12 lg:px-20 py-14 lg:py-24 gap-14">
+      
+      <div className="w-full h-full flex flex-col-reverse lg:flex-row items-center">
         
-        {/* Left Content */}
-        <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
+        {/* LEFT CONTENT */}
+        <div className="w-full lg:w-1/1 px-5 sm:px-8 md:px-12 lg:px-20 py-14 lg:py-24 space-y-10 text-center lg:text-left">
           <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl leading-tight">
             <span className="color font-semibold">
               Enterprise Web & Mobile
@@ -31,17 +31,18 @@ export default function HeroSection() {
           </NavLink>
         </div>
 
-        {/* Right Image */}
-        <div className="w-full lg:w-1/2 flex justify-center relative">
+        {/* RIGHT IMAGE – TOUCHING EDGE */}
+        <div className="w-full lg:w-1/2 flex justify-end relative">
           <div
             className="
-              relative 
-              w-[220px] 
-              sm:w-[280px] 
-              md:w-[340px] 
-              lg:w-[420px] 
-              xl:w-[520px] 
-              2xl:w-[600px]
+              relative
+              w-[240px]
+              sm:w-[300px]
+              md:w-[360px]
+              lg:w-[480px]
+              xl:w-[560px]
+              2xl:w-[640px]
+              mr-0
             "
           >
             <img
